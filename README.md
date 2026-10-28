@@ -11,11 +11,28 @@ CLI for quick experiments and daily scripting. Work in progress.
 - easy to extend
 
 
+## Project structure
+```
+.
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── index.ts
+│   └── utils.ts
+├── .gitignore
+├── LICENSE
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
 ## Usage
 
 ```bash
-go run ./...
+npx ts-node src/index.ts
 ```
+
 
 ## Notes
 
